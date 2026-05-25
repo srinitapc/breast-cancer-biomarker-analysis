@@ -6,3 +6,4 @@ The Histograms confirm this strength, specifically showing a much smaller overla
 
 Future Calculations
 - Specifically for the histogram, I want to use calculus to find the area of the overlap to get a more specific number and calculation for this "grey zone"
+- Also in these 'grey zones,' we need more data to determine the malignancy of the cells in this area. 
