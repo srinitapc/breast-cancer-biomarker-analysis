@@ -1,9 +1,5 @@
 Conclusions
 
-I analyzed a tabular dataset of 569 patient observations to identify biological signals for malignancy. My audit of the variables revealed that concavity_mean is the most significant indicator, with malignant cases averaging nearly 3.5 times higher than benign cases.
+I analyzed a dataset of 569 patients that included malignant and benign cells and found that cell concavity was most significant in determining cell conxavity. However, there was some overlap in my histograms, which showed some grey areas, and the cells in this area are not clearly benign or malignant. Therefore, more data and further analysis are needed. 
 
-The Histograms confirm this strength, specifically showing a much smaller overlap in concavity distributions compared to other features, effectively isolating the majority of the benign population near zero. My Scatter Plot further proves a positive correlation between cell size and jaggedness in malignant cells. However, it is important to note that when the radius is near 15 and the concavity is near a value of 0.1, there is a 'grey zone' or overlap between malignant and benign datapoints. In this specific range, a definitive diagnosis is harder to make based on these two features alone, requiring further clinical investigation.
-
-Future Calculations
-- Specifically for the histogram, I want to use calculus to find the area of the overlap to get a more specific number and calculation for this "grey zone"
-- Also in these 'grey zones,' we need more data to determine the malignancy of the cells in this area. 
+Some things we can look into for the future are adding more data and eventually using ML to analyse and make accurate predictions from that new and larger dataset. 
